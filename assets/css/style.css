@@ -29,7 +29,8 @@ button,summary{font:inherit}
 .header-line img{width:30px;height:30px;border-radius:50%}
 .site-frame{max-width:860px;margin:0 auto;background:white;box-shadow:0 0 34px rgba(60,0,0,.08);overflow:hidden}
 .hero{background:#640000}
-.hero picture,.hero img{width:100%}
+.hero picture{display:block;width:100%}
+.hero img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
 .quick-cta{padding:18px 18px 22px;background:linear-gradient(180deg,#fff9ef,#fff);text-align:center;border-bottom:1px solid #f0ded2}
 .today-status{display:inline-flex;align-items:center;gap:8px;font-size:15px;margin-bottom:12px;color:#6b190e}
 .pulse-dot{width:9px;height:9px;border-radius:50%;background:#eb1d1d;box-shadow:0 0 0 rgba(235,29,29,.4);animation:pulse 1.8s infinite}
